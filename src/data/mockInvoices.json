@@ -1,0 +1,62 @@
+[
+  {
+    "id": "inv_1",
+    "invoiceNumber": "INV-2026-001",
+    "clientName": "Acme Corp",
+    "issueDate": "2026-08-01",
+    "dueDate": "2026-08-15",
+    "status": "paid",
+    "amount": 4500.00,
+    "lineItems": [{ "id": "li_1", "description": "Consulting", "quantity": 30, "unitPrice": 150 }]
+  },
+  {
+    "id": "inv_2",
+    "invoiceNumber": "INV-2026-002",
+    "clientName": "Stark Industries",
+    "issueDate": "2026-08-10",
+    "dueDate": "2026-08-24",
+    "status": "pending",
+    "amount": 12500.50,
+    "lineItems": [{ "id": "li_2", "description": "Server Migration", "quantity": 1, "unitPrice": 12500.50 }]
+  },
+  {
+    "id": "inv_3",
+    "invoiceNumber": "INV-2026-003",
+    "clientName": "Wayne Enterprises",
+    "issueDate": "2026-07-15",
+    "dueDate": "2026-07-29",
+    "status": "overdue",
+    "amount": 8900.00,
+    "lineItems": [{ "id": "li_3", "description": "Security Audit", "quantity": 1, "unitPrice": 8900 }]
+  },
+  {
+    "id": "inv_4",
+    "invoiceNumber": "INV-2026-004",
+    "clientName": "Globex",
+    "issueDate": "2026-08-20",
+    "dueDate": "2026-09-03",
+    "status": "pending",
+    "amount": 1200.00,
+    "lineItems": [{ "id": "li_4", "description": "Maintenance", "quantity": 8, "unitPrice": 150 }]
+  },
+  {
+    "id": "inv_5",
+    "invoiceNumber": "INV-2026-005",
+    "clientName": "Acme Corp",
+    "issueDate": "2026-08-22",
+    "dueDate": "2026-09-05",
+    "status": "pending",
+    "amount": 3400.00,
+    "lineItems": [{ "id": "li_5", "description": "Frontend Development", "quantity": 40, "unitPrice": 85 }]
+  },
+  {
+    "id": "inv_6",
+    "invoiceNumber": "INV-2026-006",
+    "clientName": "Initech",
+    "issueDate": "2026-06-10",
+    "dueDate": "2026-06-24",
+    "status": "paid",
+    "amount": 750.00,
+    "lineItems": [{ "id": "li_6", "description": "Software License", "quantity": 5, "unitPrice": 150 }]
+  }
+]
