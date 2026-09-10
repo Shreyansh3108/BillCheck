@@ -42,7 +42,11 @@ src/
 ├── hooks/           # Business logic (Filters synced to URL, Queries, Permissions)
 ├── lib/             # Pure math and utility functions (PDF generation, CSV parsing, Stats)
 └── types/           # TypeScript interfaces (Invoice, LineItem, DashboardStats)
+```
 
+## Local Development
+
+```bash
 # Clone the repository
 git clone [https://github.com/Shreyansh3108/BillCheck.git](https://github.com/Shreyansh3108/BillCheck.git)
 
@@ -54,3 +58,4 @@ npm install
 
 # Start the Vite development server
 npm run dev
+```
